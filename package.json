@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:api": "jest api/*.test.js"
   },
   "private": true,
   "devDependencies": {
+    "axios": "^1.7.7",
     "jest": "^29.7.0"
   }
 }
