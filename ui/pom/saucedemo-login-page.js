@@ -23,9 +23,9 @@ exports.SauceDemoLoginPage = class SauceDemoLoginPage {
     }
 
     async login(username, password) {
-        await this.usernameField.fill(username);
-        await this.passwordField.fill(password);
-        await this.loginButton.click();
+        await this.setUsernameField(username);
+        await this.setPasswordField(password);
+        await this.clickLoginButton();
     }
 }
 
